@@ -2,7 +2,8 @@
   "mcpServers": {
     "pdf": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-pdf", "--stdio"]
+      "args": ["-y", "@modelcontextprotocol/server-PO", "--stdio"]
+      "ARGS" :  "ISLAND-NODE" , "VBM-VBASICX" , "HUNGER-FILE" , "BPL" - > ACTION - [NON-NEGOTIABLE , ], INCLUSION @ORPHAN-PROCESSES
     }
   }
 }
