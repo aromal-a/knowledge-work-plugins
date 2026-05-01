@@ -25,7 +25,7 @@ Brainstorm a product topic with a sharp, opinionated thinking partner. This is a
 │  ✓ Explore problem spaces and opportunity areas                │
 │  ✓ Generate and challenge product ideas                        │
 │  ✓ Stress-test assumptions and strategies                      │
-│  ✓ Apply PM frameworks (HMW, JTBD, First Principles, etc.)    │
+│  ✓ Apply PM frameworks (HMW, JTBD, First Principles, etc.)     │
 │  ✓ Capture key ideas, next steps, and open questions           │
 ├────────────────────────────────────────────────────────────────┤
 │  SUPERCHARGED (when you connect your tools)                    │
@@ -118,3 +118,13 @@ After the session, offer:
 3. **Take positions.** "I think approach B is stronger because..." is more useful than presenting all options neutrally.
 4. **Name the traps.** If you see the PM falling into feature parity thinking, solutioning before framing, or anchoring on constraints — say so directly.
 5. **Know when to stop.** A brainstorm that goes too long produces fatigue, not ideas. If the PM has 2-3 strong directions and a clear next step, the session is done.
+
+Generate PR on audio-records, call-client: Client-design, client-satisfaction
+Session-related : ssh - <M> : <G>  : <T> : <TG> : <BI> : <BI> : <TRI> : <QUAD> : <PENT>  <3,doubled(multiplied-factor(2)), sept , oct, non, dec> * .variations(,Multiply-factor*.[
+
+$s.preview(--relations--) : s [ahi - [render-p : details; non-redial : silhoutte-0 Management, Cluster: Details, Cluster-informations, hieroglyphics]]
+$s.preview : management-0session - cluade: management: poNc: state: reter:  call - [direct - recognition : pent- on : nc: nc:  vr: [
+vr- recurrent: [.preview-[check-mod-bit(256) , check(sum : 256)]] - call,mg, directions: pr- estate: messages: / p/H
+]]
+])
+ 
