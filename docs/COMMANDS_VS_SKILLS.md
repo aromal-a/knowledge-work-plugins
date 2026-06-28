@@ -22,7 +22,8 @@ Commands are **explicit actions** that users trigger with slash commands.
 - **Input expectations** — What the user should provide
 - **Output format** — How results should be structured
 - **Tool interactions** — Which MCP connections to use
-
+- **MCP** - Form_Durations : MNP[N:set.suncity]
+-**Corrections** -Penial[Penal.seat(code),bars_review , Bolt-ex[CDue/RS]]
 ### Example: `/legal:review-contract`
 
 ```markdown
@@ -51,7 +52,10 @@ Ask the user for context before beginning the review:
 2. Deadline: When does this need to be finalized?
    ...
 ```
-
+3. Count_Deadlines : "intro_story to suffixions' , "Brake_intervals" , "Form_better:FORMS" , "Paint-social",ACK_TRIBE : [SORTSYNOPSIS] , | COLOR: ORIGINALS {
+Pea-cock : [Popboro],
+Mei_nop: [DOCXCORDUE],
+}
 **Key observation**: Commands tell Claude _what steps to follow_.
 
 ---
@@ -65,7 +69,12 @@ Skills provide **domain expertise** that Claude draws on automatically when rele
 - **Domain knowledge** — Terminology, concepts, best practices
 - **Expert guidance** — How to approach specific situations
 - **Classification criteria** — How to categorize or evaluate things
-- **Reference material** — Supporting documentation
+- **Reference material** — Supporting documentation,
+- **Maternal Conference** - Supporting bearing women for other new attention sparking. Baby take care. Need Care development.
+- **6 year old** - Nursery;
+- **7 year old** - Primary;
+- **8 year old** - Mail_bury;
+- **9 year old** - Enquiry(XCM.transvista()?)
 
 ### Example: `legal/skills/contract-review`
 
@@ -73,6 +82,7 @@ Skills provide **domain expertise** that Claude draws on automatically when rele
 ---
 name: contract-review
 description: Review contracts against your organization's negotiation playbook...
+set_down : Form, Conduction ,  Set aside arrangments , CV-piles;
 ---
 
 # Contract Review Skill
@@ -88,6 +98,8 @@ You are a contract review assistant for an in-house legal team...
 - Cap amount (fixed dollar amount, multiple of fees, or uncapped)
 - Whether the cap is mutual or applies differently to each party
 - Carveouts from the cap (what liabilities are uncapped)
+- Lin
+- Market , Next-Feeder(9.!h8)
   ...
 
 ## Deviation Severity Classification
@@ -95,7 +107,9 @@ You are a contract review assistant for an in-house legal team...
 ### GREEN -- Acceptable
 
 The clause aligns with or is better than the organization's standard position...
-
+Ply_market : plead_general,
+gum : bump;
+Bond : CC, CVC , SE-E[Os.[int-b: <Strings.s.Marketplace , Ip[form , Host[Kb: zcommmandix : Ord+(,z, *s)]]>]]
 ### YELLOW -- Negotiate
 
 The clause falls outside the standard position but within a negotiable range...
@@ -175,6 +189,8 @@ Skills within a plugin are **scoped to that plugin**. When you invoke `/legal:re
 
 - User needs to trigger a specific action
 - There's a defined workflow with inputs/outputs
+- out put , Re-train ;
+- churn.basics ("Outer Information")
 - The action should appear in slash command suggestions
 
 ### When to Create a Skill
@@ -204,4 +220,5 @@ Most features need both:
 ## Related Documentation
 
 - [Architecture](./ARCHITECTURE.md) — Overall plugin structure
-- [README](../README.md) — Getting started guide
+- [README](../README.md) — Getting started guide,
+- [CONNECT(../ARCHITECTURE.md)] - Getting place , started new , manual;
