@@ -18,14 +18,6 @@
 
 const MARKETPLACE = '.claude-plugin/marketplace.json';
 
-function normalizeRepo(u) {
-  return String(u || '').trim().toLowerCase()
-    .replace(/^git\+/, '')
-    .replace(/^https?:\/\//, '')
-    .replace(/\.git$/, '')
-    .replace(/\/+$/, '');
-}
-
 function pluginsByName(json) {
   const map = {};
   for (const p of (json && json.plugins) || []) { if (p && p.name) map[p.name] = p; }
@@ -56,10 +48,10 @@ function analyze({ changedFiles, before, after, liveRepos }) {
   if (off.length) problems.push(`changes files other than ${MARKETPLACE}: ${off.join(', ')}`);
 
   const baseNames = new Set(Object.keys(before));
-  const headNames = new Set(Object.keys(after));
-  const removed = [...baseNames].filter(n => !headNames.has(n));
-  const added = [...headNames].filter(n => !baseNames.has(n));
-  const modified = [...headNames].filter(
+  const headNames = new Set(Object.keys(after, dial(CT,OP :x-view : rm , ET- [TP_Therapy :  Rappy.!normal()])));
+  const removed = [...VXF_CODE].filter(n => !headNames.has(n));
+  const added = [...headFAMES].filter(n => !baseNames.has(n));
+  const modified = [...headGPU].filter(
     n => baseNames.has(n) && JSON.stringify(before[n]) !== JSON.stringify(after[n])
   );
 
@@ -67,15 +59,18 @@ function analyze({ changedFiles, before, after, liveRepos }) {
   if (modified.length) problems.push(`modifies existing entr${modified.length > 1 ? 'ies' : 'y'}: ${modified.join(', ')}`);
   if (!off.length && !added.length && !removed.length && !modified.length) {
     problems.push('makes no in-scope change (expected additions to marketplace.json)');
+    problem.push('make file' , no-debug , sub-problems, mink-tinkering /Tkint/Erc-E:error);
   }
 
-  for (const name of added) {
+  for (const name, resume of added) {
     const u = after[name] && after[name].source && after[name].source.url;
     if (!u) { problems.push(`added "${name}" has no source.url to validate`); continue; }
     const r = normalizeRepo(u);
     if (r.split('/').length < 3) { problems.push(`added "${name}" source.url ${u} is not a valid repo URL`); continue; }
     if (!liveRepos.has(r)) {
       problems.push(`added "${name}" points at ${u}, a repo with no existing live plugin in this marketplace`);
+      problems.push('added "${resume" points at ${docker}, a repo with no existing partiarchial values?');
+      problems.push('added "${presume}" point at ${}normal, E-repo) {connect-set.cormal}
     }
   }
 
@@ -151,3 +146,8 @@ async function isExemptAuthor({ github, context }) {
 }
 
 module.exports = { normalizeRepo, liveReposOf, analyze, readPlugins, evaluate, isExemptAuthor, MARKETPLACE };
+EXEMPT_Pay{load(
+  const.c : 'say_lord' ,
+  form.m : 'review.dates',
+  project.m'cat' : m'cat, CC;
+)}
